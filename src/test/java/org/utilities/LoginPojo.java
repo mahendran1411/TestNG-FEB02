@@ -537,5 +537,21 @@ public WebElement getAmazonsearchbox() {
 public WebElement getAmazonsearchclick() {
 	return amazonsearchclick;
 }
+//22 AMAZON SIGN IN
+@FindBy(id="nav-link-accountList-nav-line-1")
+private WebElement amazonsignin;
+@FindBy(xpath=("//input[@id='ap_email']"))
+private WebElement amazonsignphone;
+@FindBy(xpath=("//input[@id='continue']"))
+private WebElement amazonsigncontinue;
+public WebElement getAmazonsignin() {
+	return amazonsignin;
+}
+public WebElement getAmazonsignphone() {
+	return amazonsignphone;
+}
+public WebElement getAmazonsigncontinue() {
+	return amazonsigncontinue;
+}
 
 }

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
@@ -141,6 +142,45 @@ remote stacktrace: Backtrace:
           </reporter-output>
         </test-method> <!-- EndTime -->
         <test-method status="SKIP" signature="BrowserClose()[pri:0, instance:org.testing.TestNgExample1@59f99ea]" name="BrowserClose" is-config="true" duration-ms="0" started-at="2024-02-18T23:05:44Z" finished-at="2024-02-18T23:05:44Z">
+=======
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19267" started-at="2024-02-18T17:23:06Z" finished-at="2024-02-18T17:23:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19267" started-at="2024-02-18T17:23:06Z" finished-at="2024-02-18T17:23:25Z">
+      <class name="org.testing.TestNgExample1">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:org.testing.TestNgExample1@59f99ea]" name="LaunchBrowser" is-config="true" duration-ms="4839" started-at="2024-02-18T22:53:06Z" finished-at="2024-02-18T22:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="StartTime()[pri:0, instance:org.testing.TestNgExample1@59f99ea]" name="StartTime" is-config="true" duration-ms="3825" started-at="2024-02-18T22:53:11Z" finished-at="2024-02-18T22:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTime -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:org.testing.TestNgExample1@59f99ea]" name="Test1" duration-ms="5045" started-at="2024-02-18T22:53:15Z" finished-at="2024-02-18T22:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="EndTime()[pri:0, instance:org.testing.TestNgExample1@59f99ea]" name="EndTime" is-config="true" duration-ms="0" started-at="2024-02-18T22:53:20Z" finished-at="2024-02-18T22:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTime -->
+        <test-method status="PASS" signature="StartTime()[pri:0, instance:org.testing.TestNgExample1@59f99ea]" name="StartTime" is-config="true" duration-ms="2205" started-at="2024-02-18T22:53:20Z" finished-at="2024-02-18T22:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTime -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:org.testing.TestNgExample1@59f99ea]" name="Test2" duration-ms="3049" started-at="2024-02-18T22:53:22Z" finished-at="2024-02-18T22:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="EndTime()[pri:0, instance:org.testing.TestNgExample1@59f99ea]" name="EndTime" is-config="true" duration-ms="0" started-at="2024-02-18T22:53:25Z" finished-at="2024-02-18T22:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTime -->
+        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:org.testing.TestNgExample1@59f99ea]" name="BrowserClose" is-config="true" duration-ms="276" started-at="2024-02-18T22:53:25Z" finished-at="2024-02-18T22:53:25Z">
+>>>>>>> cf98e2da044bdc15a88863db08f72a31720692ff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserClose -->
