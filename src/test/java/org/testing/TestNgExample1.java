@@ -12,14 +12,13 @@ import org.utilities.LoginPojo;
 
 public class TestNgExample1 extends BaseClass {
 @BeforeClass
-public void LaunchBrowser() {
-	launchChrome();
+public void LaunchBrowser(){
+	launchEdge();
 	winMax();
-
 }
 @AfterClass
 public void BrowserClose() {
-	closeChrome();
+	closeEdge();
 
 }
 @BeforeMethod
@@ -35,11 +34,19 @@ private void EndTime() {
 	System.out.println("EndTime: "+d);
 
 }
-@Test
-private void Test() {
+@Test//(enabled=false)
+private void Test1() {
 	LoginPojo l = new LoginPojo();
 	fill(l.getAmazonsearchbox(), "sony home theater");
 	btnClick(l.getAmazonsearchclick());
+
+}
+@Test
+private void Test2() {
+	LoginPojo l = new LoginPojo();
+	btnClick(l.getAmazonsignin());
+	fill(l.getAmazonsignphone(), "12345");
+	btnClick(l.getAmazonsigncontinue());
 
 }
 }
